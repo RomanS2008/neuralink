@@ -1,0 +1,297 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 1440px;
+    height: 85px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #F99E4B;
+} 
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 21px 0 22px 0;
+    list-style-type: none
+}
+
+.menu_link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.menu_link:hover {
+    color: #000000
+}
+
+
+.promo {
+    padding: 35px 491px 345px 66px;
+    min-height: 939px;
+    background: url("../img/neuralink.jpg") center center/cover no-repeat
+}
+
+.logo {
+    width: 254px;
+    height: 82px;
+    left: 41px;
+    top: 120px;
+
+}
+
+.promo_name {
+    margin-top: 116px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.promo_descr {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF; 
+}
+
+
+.achievements_s {
+    padding: 44px 93px 59px 75px;
+    min-height: 1061px;
+    background: url("../img/space.jpg") center center/cover no-repeat
+}
+
+.achievements {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.video {
+    display: block;
+    width: 1272px;
+    height: 694px;
+    margin-top: 35px;
+    margin: 0 auto;
+}
+
+.achievements_btn {
+    display: block;
+    
+	width: 143px;
+	height: 68px;
+	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+	border-radius: 71px;
+	background: #FFD600;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 78px;
+}
+
+
+.target {
+    padding: 34px 213px 129px 213px;
+    height: 1024px;
+    background: #000000;
+    mix-blend-mode: normal;
+}
+
+.target_neuralink {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.more_target {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.target_first {
+    margin-top: 52px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.target_second {
+    margin-top: 52px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36.1374px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.magic {
+    margin-top: 64px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.volunteers {
+    padding: 30px 65px 22px 64px;
+    min-height: 780px;
+    background: #000000;
+}
+
+.for_volunteers {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.volunteers_descr {
+    margin-top: 62px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+}
+
+.volunteers_descr span {
+    margin-top: 62px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #ff0000;
+    text-transform: uppercase;
+}
+
+.full_viev {
+    margin-top: 72px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 158.19%;
+    /* or 38px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.blood {
+    width: 195px;
+    height: 255px;
+    left: 64px;
+    top: 314px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url(blood.png); 
+}
+
+.contact {
+    padding: 21px 99px 46px 99px;
+    height: 1024px;
+    background: #000000;
+}
+
+.contacts {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 158.19%;
+    /* or 87px */
+
+    text-align: center;
+
+    color: #FFFFFF; 
+    text-transform: uppercase;
+}
+
+.map {
+    display: block;
+    width: 1242px;
+    height: 715px;
+    margin-top: 11px;
+    margin: 0 auto;
+}
+
+.mail {
+    display: block;
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 158.19%;
+    /* or 57px */
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mail:hover {
+    color: #FFFFFF
+}
+
+.phone {
+    display: block;
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 158.19%;
+    /* identical to box height, or 57px */
+
+
+    color: #FCB224;
+    text-align: center;
+}
