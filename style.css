@@ -44,7 +44,7 @@ nav {
 .promo {
     padding: 35px 491px 345px 66px;
     min-height: 939px;
-    background: url("/img/neuralink.jpg") center center/cover no-repeat
+    background: url("img/neuralink.jpg") center center/cover no-repeat
 }
 
 .logo {
@@ -78,7 +78,7 @@ nav {
 .achievements_s {
     padding: 44px 93px 59px 75px;
     min-height: 1061px;
-    background: url("/img/space.jpg") center center/cover no-repeat
+    background: url("img/space.jpg") center center/cover no-repeat
 }
 
 .achievements {
